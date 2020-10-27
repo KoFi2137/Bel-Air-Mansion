@@ -1,0 +1,36 @@
+ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+    padding: 0;
+    float: left;
+}
+
+ul a:link, ul a:visited {
+	text-decoration: none;
+	display: block;
+	width: 80px;
+	text-align: center;
+	background-color: #ccc;
+	color: #000;
+	border: 2px outset #ccc;
+	padding: 5px;
+}
+
+ul a:hover {
+	border-style: inset;
+	padding: 7px 3px 3px 7px;
+} 
+body {
+    background-color: grey;
+}
+#menu {
+    float: left; 
+    position: relative; 
+    left: 50%;
+}
+#menu2 {
+    float: left; 
+    position: relative; 
+    right: 50%;
+}
